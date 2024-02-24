@@ -1,0 +1,62 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pacifico&family=Ribeye+Marrow&family=Sacramento&family=Special+Elite&display=swap');
+
+
+       body {
+            background-color: #d8e2f1;
+            margin: 0;
+            padding: 0;
+            font-family: "Sacramento", sans-serif;
+            font-weight: 400;
+            font-style: normal
+       }
+        
+        header
+         {
+            background-color: #990808;
+            color: white;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 50px;
+            margin: 50px;
+        }
+
+        h2 {
+            color: #333;
+        }
+       
+        .movie-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .movie {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie img {
+            width: 220px;
+            height: auto;}
+        
+
+        footer {
+            background-color: #990808;
+            color: black;
+            padding: 1em;
+            text-align: center;
+            position:content;
+            bottom: 0;
+
+
+        }
+
